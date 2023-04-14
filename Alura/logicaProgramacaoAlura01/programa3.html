@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha(){
+		document.write("<br><hr><br>");
+	}
+	
+	function mostra(texto){		
+		document.write(texto);
+		document.write("<br><hr><br>");
+	}
+	
+	let ano = 2022;
+	let anoDescobrimentoBrasil = 1500;	
+	let idadeBrasil = ano - anoDescobrimentoBrasil;
+	let quantidadeGeracoes = Math.round(anoDescobrimentoBrasil/28)
+
+	mostra("O Brasil tem " + idadeBrasil + " anos, e ja tiveram  " + quantidadeGeracoes + " gerações ");
+	
+	pulaLinha();
+	
+	mostra("Fim");
+	
+	
+</script>
